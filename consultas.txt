@@ -1,0 +1,43 @@
+------------------------------------------------------------------ GET ------------------------------------------------------------------
+
+url: http://localhost/api/v1/public/get/all
+
+url: http://localhost/api/v1/public/get/byId/3
+
+------------------------------------------------------------------ POST ------------------------------------------------------------------
+
+url: http://localhost:80/api/v1/public/post/create
+
+data:
+
+{
+  "id": "11",
+  "nombre": "Harry Potter y la Piedra Filosofal",
+  "compania": "Bloomsbury",
+  "anio": "1997",
+  "descripcion": "HP 1",
+  "precio": "15",
+  "autor": "J.K. Rowling",
+  "tipo":"Libro"
+}
+
+------------------------------------------------------------------ PUT ------------------------------------------------------------------
+
+url: http://localhost/api/v1/public/put/update/8
+
+data:
+
+{
+  "id": "id",
+  "nombre": "NombreInventado",
+  "compania": "CompaniaInventada",
+  "anio": "1551",
+  "descripcion": "Libro",
+  "precio": "12",
+  "autor": "Hola",
+  "tipo":"Manga"
+}
+
+------------------------------------------------------------------ DELETE ------------------------------------------------------------------
+
+url: http://localhost/api/v1/public/delete/delete/3
